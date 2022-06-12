@@ -10,8 +10,8 @@ async def showMessage():
 
 @app1.post("/numbers")
 async def getnumber(num):
-    if type(num) == 'int':
-        numbers.append(num)
+    if num.isdigit() == True:
+        numbers.append(int(num))
         return {"result": "OK"}
     else:
         return {"result": "Error"}
@@ -20,9 +20,9 @@ async def getnumber(num):
 async def average():
     avg = 0
     if len(numbers) > 1:
-        for i in nubmers:
+        for i in numbers:
             avg = avg + i
-        avg = avg/len(numbers)
+        avg = avg/(len(numbers)-1)
         return {"result ": avg}
     else:
         return {"No numbers in the array"}
