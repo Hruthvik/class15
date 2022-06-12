@@ -19,6 +19,6 @@ to run the Restful API
 
 <pre><code>curl -X POST http://localhost:8080/numbers?new=123</code></pre>
 
-<pre><code>curl -X GET http://localhost:8080/numbers/average”</code></pre>
+<pre><code>curl -X GET http://localhost:8080/numbers/average</code></pre>
 <pre><code>curl -X GET http://localhost:8080/numbers/sum</code></pre>
 
