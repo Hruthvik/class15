@@ -9,9 +9,9 @@ async def showMessage():
     return {"response": "this is the root. Nothing else."}
 
 @app1.post("/numbers")
-async def getnumber(num):
-    if num.isdigit() == True:
-        numbers.append(int(num))
+async def getnumber(new):
+    if new.isdigit() == True:
+        numbers.append(int(new))
         return {"result": "OK"}
     else:
         return {"result": "Error"}
