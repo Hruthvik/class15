@@ -37,10 +37,10 @@ async def sum():
         return {"result ": s}
     else:
         return {"No numbers in the array"}
-        
+    
 @app1.get("/numbers/stddev")
-async def stddev():
-    if (numbers == []):
+async def sd():
+    if len(numbers) <= 0:
         return {"result": "No numbers in the array"}
     else:
         stddev = statistics.stdev(numbers)
