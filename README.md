@@ -2,7 +2,7 @@
 
 <p>the assignment aims to run the resful API in Docker container.</p></br>
 
-##Tools
+## Tools
 
 <ol>
   <li>Python</li>
@@ -10,7 +10,7 @@
 </ol>
 </br>
 
-to run the Restful API
+## To run the Restful API
 
 <p>clone this repository</p>
 <pre><code>git clone https://github.com/Hruthvik/class15.git</code></pre>
