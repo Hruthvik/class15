@@ -38,7 +38,7 @@ async def sum():
     else:
         return {"No numbers in the array"}
         
- @app.get("/numbers/stddev")
+@app1.get("/numbers/stddev")
 async def getStdev():
     if (numbers == []):
         return {"result": "No numbers in the array"}
