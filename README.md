@@ -1,4 +1,14 @@
-# Assignment 3
+# Assignment 3: Statistics via RESTful APIs.
+
+<p>the assignment aims to run the resful API in Docker container.</p></br>
+
+##Tools
+
+<ol>
+  <li>Python</li>
+  <li>Docker</li>
+</ol>
+</br>
 
 to run the Restful API
 
