@@ -9,6 +9,7 @@ RUN apt-get install -y python
 RUN apt-get install -y python3-pip
 RUN pip3 install uvicorn
 RUN pip3 install fastapi
+RUN pip3 install statistics
 RUN pip3 install httptools==0.1.
 
 RUN mkdir /root/assignment
