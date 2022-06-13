@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+import statistics
 
 app1 = FastAPI()
 
