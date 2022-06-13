@@ -2,7 +2,7 @@
 
 <p>the assignment aims to run the resful API in Docker container.</p></br>
 
-## Tools
+## Tools Used
 
 <ol>
   <li>Python</li>
@@ -23,7 +23,6 @@
 
 <p> run the docker image</p>
 <pre><code>sudo docker run -d -p 8080:80 image1:latest</code></pre>
-<pre><code>sudo docker run  image1:latest</code></pre>
 
 <p>To perform the GET and POST operations use these commands in a different terminal</p>
 
