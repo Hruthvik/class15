@@ -17,6 +17,6 @@ RUN git clone https://github.com/Hruthvik/class15.git
 WORKDIR /root/assignment/class15
 
 
-CMD ["uvicorn","compute:app1","--reload","--host","0.0.0.0","--port","80"]
+CMD ["uvicorn","compute:app1","--reload","--host","0.0.0.0","--port","8080"]
 
 
